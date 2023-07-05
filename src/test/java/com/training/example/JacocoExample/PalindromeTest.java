@@ -13,7 +13,7 @@ public class PalindromeTest {
 	}
 
 	@Test
-	public void whenEmptyString_thenAccept() {
+	public void whenEmptyString_thenAccept1() {
 	    Palindrome palindromeTester = new Palindrome();
 	    assertTrue(palindromeTester.isPalindrome("radar"));
 	}
